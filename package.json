@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sacchetantonio/marittima/issues"
   },
-  "homepage": "https://github.com/sacchetantonio/marittima#readme"
+  "homepage": "https://github.com/sacchetantonio/marittima#readme",
+  "dependencies": {
+    "Express": "^3.0.1"
+  }
 }
