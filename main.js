@@ -42,13 +42,13 @@ function draw() {
     for (key in frase) {
       const fr = frase[key];
       let testo = fr.text;
-      console.log(key.length)
+      console.log(key)
       testo=testo.toUpperCase()
       textFont("Roboto Mono");
   textStyle(BOLD);
   textSize(50);
 fill('white');
-
+console.log(fr)
       text(testo,-20+x,50);
     
     
