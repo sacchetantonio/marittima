@@ -24,13 +24,13 @@ function draw() {
  textAlign(LEFT);
   x = x+speedX
   y= y+speedY
-  if (x> width/2){
-    x= -a
+  if (x> width){
+    speedX= -a
   }
   if (y> height/3){
     speedY=-b
   }
-  if (x< -width/3){
+  if (x< 0){
     speedX=a
   }
   if (y< -height/3){
