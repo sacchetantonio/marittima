@@ -12,12 +12,13 @@ h1 {
   transform: translateX(-50%);
   align-content: center;
   transform-origin: center;
-  font-size: 18;
+  font-size: 18px;
   font-family: "Roboto Mono";
   color: white;
+  text-transform: uppercase;
   background-color: black;
-  display: block;
-  font-size: 2em;
+ 
+
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
