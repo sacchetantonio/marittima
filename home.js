@@ -25,8 +25,8 @@ let counter;
 function setup() {
   //canvas
   createCanvas(windowWidth, windowHeight);
+
   
-  background("black");
 textAlign(CENTER)
 
   //create Enter button
@@ -43,7 +43,7 @@ enterButton.mousePressed(pressEnter);
 
 }
 function draw() {
- 
+  background("black");
 textAlign(CENTER)
   //heading
 
