@@ -42,7 +42,7 @@ function draw() {
 fill('white');
 
 
-text(testo,-windowWidth-moveX,50);
+text(testo,-windowWidth-moveX,windowHeight-50*counter);
 
 text(testo,windowWidth-windowWidth-moveX,windowHeight-50*counter);
 // text(testo,windowWidth-windowWidth/2-moveX,50);
