@@ -42,9 +42,10 @@ enterButton.mousePressed(pressEnter);
 
 }
 function draw() {
-  background("black");
+ 
 textAlign(CENTER)
-  
+  //heading
+
   randomX=random(-1000,+1000)
 getVal()
 }

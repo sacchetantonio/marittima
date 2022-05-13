@@ -6,6 +6,11 @@ body {
 
 h1 { 
   position: fixed;
+  top:35%;
+  left:50%;
+  transform: translateX(-50%);
+  align-content: center;
+  transform-origin: center;
   font-size: 12;
   font-family: "Roboto Mono";
   color: white;
@@ -20,8 +25,9 @@ h1 {
 }
 
 canvas {
-  display: block;
+
   position: fixed;
+  z-index: -1;
 }
 
 .wrapper{
@@ -33,7 +39,7 @@ canvas {
 }
 
 #textBar {
-  position: fixed;
+  position: absolute;
  display: block;
   background-color: black;
   border-radius: 0;
@@ -41,6 +47,7 @@ canvas {
   border-width: 1px;
   border-style: solid;
   color: white;
+  z-index: 3;
   
 transform: translateX(-50%);
 
