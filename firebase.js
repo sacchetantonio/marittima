@@ -35,7 +35,9 @@ async function firebaseSetup() {
 
   onValue(fraseRef, function (snapshot) {
     const data = snapshot.val();
-    frase = data;
+     frase = data;
+     counter=snapshot.size
+    console.log(counter)
   });
 
   addFrase = function (properties) {

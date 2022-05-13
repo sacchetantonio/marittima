@@ -16,6 +16,9 @@ let enter = "PRESS ENTER";
 
 //username
 let username;
+let randomX;
+let counter;
+
 
 
 
@@ -35,9 +38,7 @@ enterButton.mousePressed(pressEnter);
 
 
   //input text name
-  textBar = createInput("");
-textBar.position(windowWidth / 2-textBar.width/2, windowHeight/2);
-  textBar.class("textBar");
+  textBar = document.getElementsByClassName('textBar')
 
 }
 function draw() {
@@ -51,23 +52,29 @@ textAlign(CENTER)
   fill("white");
   text("TYPE HERE", windowWidth/2, windowHeight/2-20);
   pop();
+  randomX=random(-1000,+1000)
+getVal()
 }
 
 
+function getVal() {
+  username = document.querySelector('input').value;
 
+}
 
 // function press entrer
 function keyPressed(myInputEvent) {
   if (keyCode == ENTER) {
-   username = textBar.value();
+ 
     salvaFrase()
     setTimeout(banner,100)
     setTimeout(refresh,2500)
   }
+  
 }
 
 function pressEnter() {
-  username = textBar.value();
+  
   salvaFrase()
   setTimeout(banner,100)
   setTimeout(refresh,2500)
@@ -78,10 +85,14 @@ function windowResized() {
 }
 
 function salvaFrase() {
+
   let thisFrase = null;
 
   thisFrase = {
-    text:username
+    text:username,
+    randomX:randomX,
+  
+  
   };
   addFrase(thisFrase);
   thisFrase = null;

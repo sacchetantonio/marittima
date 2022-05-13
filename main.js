@@ -2,12 +2,9 @@ const urlString = window.location.href;
 let url = new URL(urlString);
 let username = url.searchParams.get("count");
 
-let x=0
-let y=0
-let a=2
-let b=0.5
-let speedX=a
-let speedY=b
+
+let moveX=0
+
 
 function setup() {
   //canvas
@@ -21,43 +18,44 @@ function setup() {
 }
 
 function draw() {
- textAlign(LEFT);
-  x = x+speedX
-  y= y+speedY
-  if (x> width){
-    speedX= -a
+  if(moveX >width){
+    moveX=0
   }
-  if (y> height/3){
-    speedY=-b
-  }
-  if (x< 0){
-    speedX=a
-  }
-  if (y< -height/3){
-    speedY=b
-  }
+
+  moveX+=2
+ textAlign(LEFT,CENTER);
+ 
 
   background("black");
   if (frase) {
     for (key in frase) {
+   
       const fr = frase[key];
       let testo = fr.text;
-      console.log(key)
+      let translationX= fr.randomX;
+  
+      
       testo=testo.toUpperCase()
       textFont("Roboto Mono");
   textStyle(BOLD);
   textSize(50);
 fill('white');
-console.log(fr)
-      text(testo,-20+x,50);
-    
-    
 
-      translate(0,50)
-      
-      
+
+text(testo,-windowWidth-moveX,50);
+
+text(testo,windowWidth-windowWidth-moveX,windowHeight-50*counter);
+// text(testo,windowWidth-windowWidth/2-moveX,50);
+text(testo,windowWidth-moveX,windowHeight-50*counter);
+// text(testo,windowWidth+windowWidth/2-moveX,50);
+text(testo,2*windowWidth-moveX,windowHeight-50*counter);
+// text(testo,2*windowWidth+windowWidth/2-moveX,50);
+text(testo,3*windowWidth-moveX,windowHeight-50*counter)
+
+translate(translationX,50)
+
+
     }
-  }
-
       
+}
 }

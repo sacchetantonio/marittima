@@ -8,19 +8,28 @@ canvas {
   display: block;
 }
 
+.wrapper{
+  position: fixed;
+  top:50%;
+  left:50%;
+  align-content: center;
+  transform-origin: center;
+}
 
-
-.textBar {
- 
+#textBar {
+ display: block;
   background-color: black;
   border-radius: 0;
   border-color: white;
   border-width: 1px;
   border-style: solid;
   color: white;
+  
+transform: translateX(-50%);
 
   font-weight: bold;
   animation-fill-mode: none;
+  
 }
 .enterButton{
   font-size: 12;
