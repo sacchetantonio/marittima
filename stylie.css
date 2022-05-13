@@ -4,6 +4,21 @@ body {
   padding: 0;
 }
 
+h1 { 
+  position: fixed;
+  font-size: 12;
+  font-family: "Roboto Mono";
+  color: white;
+  background-color: black;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
 canvas {
   display: block;
   position: fixed;

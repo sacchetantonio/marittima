@@ -44,14 +44,7 @@ enterButton.mousePressed(pressEnter);
 function draw() {
   background("black");
 textAlign(CENTER)
-  //heading
-  push();
-  textFont("Roboto Mono");
-  textStyle(BOLD);
-  textSize(20);
-  fill("white");
-  text("TYPE HERE", windowWidth/2, windowHeight/2-20);
-  pop();
+  
   randomX=random(-1000,+1000)
 getVal()
 }
