@@ -7,7 +7,7 @@ body {
 
 h1 { 
   position: fixed;
-  top:40%;
+  top:45%;
   left:50%;
   transform: translateX(-50%);
   align-content: center;
@@ -93,6 +93,6 @@ transform: translateX(-50%);
   border-radius: 5px;
 
  
-  width: 10%;
+  width: 15%;
   z-index: 4; 
 }
