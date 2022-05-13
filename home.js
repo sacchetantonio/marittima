@@ -54,6 +54,7 @@ textAlign(CENTER)
   pop();
   randomX=random(-1000,+1000)
 getVal()
+windowResized()
 }
 
 
@@ -80,9 +81,7 @@ function pressEnter() {
   setTimeout(refresh,2500)
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+
 
 function salvaFrase() {
 
@@ -105,4 +104,8 @@ function banner(){
 }
 function refresh(){
   window.open(url, "_self");
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
