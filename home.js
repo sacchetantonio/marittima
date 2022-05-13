@@ -25,6 +25,7 @@ let counter;
 function setup() {
   //canvas
   createCanvas(windowWidth, windowHeight);
+  
   background("black");
 textAlign(CENTER)
 
