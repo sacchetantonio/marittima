@@ -82,6 +82,16 @@ transform: translateX(-50%);
   width: 0%;
   z-index: 4;
 }
+
+#logo {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+  left: 50%;
+  top: 40%;
+  width: 50px;
+  z-index: 4;
+}
 #qr{
   position: fixed;
   transform: translate(-50%, -50%);
