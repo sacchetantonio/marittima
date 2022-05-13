@@ -54,7 +54,6 @@ textAlign(CENTER)
   pop();
   randomX=random(-1000,+1000)
 getVal()
-windowResized()
 }
 
 
