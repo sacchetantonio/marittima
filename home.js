@@ -93,7 +93,7 @@ function salvaFrase() {
   return false;
 }
 function banner(){
-  document.getElementById("planted").style.width = "50%";
+  document.getElementById("planted").style.width = "75%";
   document.getElementById("planted").style.transition = "0.5s";
 }
 function refresh(){
