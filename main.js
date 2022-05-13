@@ -46,7 +46,7 @@ function draw() {
   textSize(50);
 fill('white');
 
-
+text(testo,-2*windowWidth-moveX,windowHeight-50*counter);
 text(testo,-windowWidth-moveX,windowHeight-50*counter);
 
 text(testo,windowWidth-windowWidth-moveX,windowHeight-50*counter);
@@ -56,6 +56,7 @@ text(testo,windowWidth-moveX,windowHeight-50*counter);
 text(testo,2*windowWidth-moveX,windowHeight-50*counter);
 // text(testo,2*windowWidth+windowWidth/2-moveX,50);
 text(testo,3*windowWidth-moveX,windowHeight-50*counter)
+text(testo,4*windowWidth-moveX,windowHeight-50*counter)
 
 translate(translationX,50)
 
