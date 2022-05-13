@@ -4,6 +4,11 @@ let username = url.searchParams.get("count");
 
 
 let moveX=0
+let qr
+
+function preload(){
+qr=loadImage('./addoni/qr.png')
+}
 
 
 function setup() {
@@ -58,4 +63,5 @@ translate(translationX,50)
     }
       
 }
+
 }
