@@ -29,6 +29,8 @@ function preload() {
 function setup() {
   //canvas
   createCanvas(windowWidth, windowHeight);
+  fish.resize(2048,1367)
+  background(fish);
 
   
 textAlign(CENTER)
@@ -47,10 +49,9 @@ enterButton.mousePressed(pressEnter);
 
 }
 function draw() {
-fish.resize(2048,1367)
-  background(fish);
+
 textAlign(CENTER)
-  //heading
+
 
   randomX=random(-1000,+1000)
 getVal()
