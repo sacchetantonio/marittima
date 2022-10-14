@@ -19,7 +19,11 @@ let username;
 let randomX;
 let counter;
 
+let fish
 
+function preload() {
+  fish= loadImage("addoni/licensed-image.jpeg")
+}
 
 
 function setup() {
@@ -30,7 +34,7 @@ function setup() {
 textAlign(CENTER)
 
   //create Enter button
-  enterButton = createElement("button", "enter");
+  enterButton = createElement("button", "ENTER");
 enterButton.position(windowWidth / 2-enterButton.width/2, windowHeight/2 +40);
 enterButton.class("enterButton");
 enterButton.mousePressed(pressEnter);
@@ -43,7 +47,8 @@ enterButton.mousePressed(pressEnter);
 
 }
 function draw() {
-  background("blue");
+fish.resize(2048,1367)
+  background(fish);
 textAlign(CENTER)
   //heading
 
