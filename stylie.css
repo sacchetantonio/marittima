@@ -54,7 +54,7 @@ height: 100%;
   border-color: white;
   border-width: 1px;
   border-style: solid;
-  color: white;
+  color: rgba(0, 0, 180, 1);
   z-index: 3;
   font-size: 12px;
   font-family: "Roboto Mono";
