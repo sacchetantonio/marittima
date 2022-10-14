@@ -36,8 +36,8 @@ height: 100%;
 }
 
 .wrapper{
-  position: absolute;
-  top:50%;
+  position: fixed;
+  top:51%;
   left:50%;
   align-content: center;
   transform-origin: center;
@@ -45,7 +45,7 @@ height: 100%;
 
 #textBar {
   position: fixed;
-  top:50%;
+
  display: block;
   background-color: rgba(149, 239, 252, 1);
   border-radius: 0;
