@@ -72,6 +72,9 @@ input::placeholder {
 }
 .enterButton{
   position: fixed;
+  transform: translate(-50%, -50%);
+  left:50%;
+  top:56%;
   font-size: 12;
   font-family: "Roboto Mono";
   color: rgba(0, 0, 180, 1);
