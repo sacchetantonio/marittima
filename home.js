@@ -22,7 +22,7 @@ let counter;
 let fish
 
 function preload() {
-  fish= loadImage("addoni/licensed-image.jpeg")
+  fish= loadImage("./addoni/licensed-image.jpeg")
 }
 
 

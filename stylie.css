@@ -14,7 +14,7 @@ h1 {
   transform-origin: center;
   font-size: 18px;
   font-family: "Roboto Mono";
-  color: black;
+  color: rgba(0, 0, 180, 01);
   text-transform: uppercase;
 
  
@@ -46,9 +46,9 @@ height: 100%;
 #textBar {
   position: absolute;
  display: block;
-  background-color: lightskyblue;
+  background-color: rgba(149, 239, 252, 1);
   border-radius: 0;
-  border-color: black;
+  border-color: white;
   border-width: 1px;
   border-style: solid;
   color: white;
@@ -64,7 +64,7 @@ transform: translateX(-50%);
 }
 
 input::placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 180, 0.5);
   font-size: 10px;
   font-family: "Roboto Mono";
  font-weight: 100;
@@ -73,7 +73,7 @@ input::placeholder {
   position: absolute;
   font-size: 12;
   font-family: "Roboto Mono";
-  color: black;
+  color: rgba(0, 0, 180, 1);
   background-color: white;
   border-radius: 0;
   border-color: transparent;
@@ -107,7 +107,8 @@ input::placeholder {
   transform-origin: center;
   left: 50%;
   top: 50%;
-  background-color:rgba(0, 0, 0, 0.85);
+  background-color:rgba(0, 0, 180, 0.8);
+  
   padding: 5px;
   border-radius: 5px;
 

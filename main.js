@@ -6,8 +6,10 @@ let username = url.searchParams.get("count");
 let moveX=0
 let qr
 
+let sea
+
 function preload(){
-qr=loadImage('./addoni/qr.png')
+sea=loadImage("./addoni/GIF-mare-acqua-cristallina-1.gif")
 }
 
 
@@ -31,7 +33,7 @@ function draw() {
  textAlign(LEFT,CENTER);
  
 
-  background("black");
+  background(sea);
   if (frase) {
     for (key in frase) {
    
@@ -44,7 +46,7 @@ function draw() {
       textFont("Roboto Mono");
   textStyle(BOLD);
   textSize(50);
-fill('white');
+fill('rgba(0,0,180, 0.9)');
 
 text(testo,-2*windowWidth-moveX,windowHeight-50*counter);
 text(testo,-windowWidth-moveX,windowHeight-50*counter);
