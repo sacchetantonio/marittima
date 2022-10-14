@@ -43,7 +43,7 @@ enterButton.mousePressed(pressEnter);
 
 }
 function draw() {
-  background("black");
+  background("blue");
 textAlign(CENTER)
   //heading
 
