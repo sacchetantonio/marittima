@@ -39,7 +39,7 @@ height: 100%;
 
 .wrapper{
   position: fixed;
-  top:51%;
+  top:53%;
   left:50%;
   align-content: center;
   transform-origin: center;
@@ -76,7 +76,7 @@ input::placeholder {
   position: fixed;
   transform: translate(-50%, -50%);
   left:50%;
-  top:56%;
+  top:57%;
   font-size: 12;
   font-family: "Roboto Mono";
   color: rgba(0, 0, 180, 1);
