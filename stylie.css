@@ -76,7 +76,7 @@ input::placeholder {
   position: fixed;
   transform: translate(-50%, -50%);
   left:50%;
-  top:57%;
+  top:58%;
   font-size: 12;
   font-family: "Roboto Mono";
   color: rgba(0, 0, 180, 1);
@@ -103,7 +103,7 @@ input::placeholder {
   transform: translate(-50%, -50%);
   transform-origin: center;
   left: 50%;
-  top: 40%;
+  top: 41%;
   width: 50px;
   z-index: 4;
 }
