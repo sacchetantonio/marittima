@@ -34,7 +34,7 @@ function setup() {
 textAlign(CENTER)
 
   //create Enter button
-  enterButton = createElement("button", "ENTER");
+  enterButton = createElement("button", "SEND");
 enterButton.position(windowWidth / 2-enterButton.width/2, windowHeight/2 +40);
 enterButton.class("enterButton");
 enterButton.mousePressed(pressEnter);
