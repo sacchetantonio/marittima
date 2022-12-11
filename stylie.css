@@ -122,3 +122,25 @@ input::placeholder {
   width: 15%;
   z-index: 4; 
 }
+
+#notAvailable{
+  z-index: 5;
+  opacity: 0.95;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#notAvailable div{
+  text-align: center;
+  font-size: 21px;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  color:rgba(0, 0, 180, 1);
+
+  
+}
